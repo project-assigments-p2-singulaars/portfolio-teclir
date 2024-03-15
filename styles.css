@@ -1,0 +1,203 @@
+*{
+  scroll-behavior: smooth;
+
+}
+  header{
+    display:flex;
+    background: rgb(27,16,71);
+    background: linear-gradient(90deg, rgba(27,16,71,0.6643032212885154) 20%, rgba(22,35,86,0.8883928571428571) 42.5%, hsla(192, 37%, 48%, 0.366) 100%);
+        width:100%;
+        height: 15%;
+        position:fixed;
+        z-index:100;
+        font-family:"Jura";
+        justify-content: space-between;
+
+}
+h1{
+    color:white;
+    margin-left: 3%;
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    
+
+
+}
+.box{
+    text-decoration: none;
+    display:flex;
+
+    
+    
+}
+ul {
+    padding:0.75rem 2rem;
+    border-radius:2rem;
+    letter-spacing:0.1rem;
+    color:white;
+    width:600px;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow:0px 8px 15px rgba(27,16,71,0.6643032212885154);
+    background-clip: padding-box;
+    border: 2px solid rebeccapurple;
+    background-color:26184D;
+    opacity:0.7;
+    display: flex;
+    list-style: none;
+    
+    }
+
+  .block,
+  li {
+    padding: .5em;
+    justify-content: space-around;
+  }
+  
+  .block {
+    display: block;
+}
+    
+
+html, body{
+    margin:0;
+    padding:0;
+    height:100%;
+    font-family:"Jura" ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.neon{
+  color: #fff;
+	margin-top: 10%;
+	text-shadow:
+		0 0 5px rgba(0,178,255,1),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+}
+.Intro{
+  display: flex;
+  padding-top:150px;
+  flex-direction: column;
+  color: white;
+  font-size: 40px;
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+.Projects{
+  display: flex;
+  color:white;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  width:100%;
+}
+.ProjectsContainerCard{
+  width: 50%;
+  height:60%;
+
+}
+.ProjectsContainer{
+  display: flex;
+  justify-content:center;
+  flex-direction: row;
+  position: relative;
+  scroll-snap-align: center;
+  display: flex;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  width: 100%;
+  margin:auto;
+	text-align: center;
+	margin-top:40px;
+  scrollbar-width: none;
+  }
+  
+
+.ProjectsContainer, title{
+  justify-content: flex-start;
+  text-align:center;
+  margin-bottom: 1rem;
+}
+
+.AboutMe{
+  padding: 1rem 6rem;
+  justify-content:center;
+  font-size:20px;
+  color:white;
+}
+
+.AboutMe .h2 {
+  margin-bottom: var(--bottom-margin);
+  text-align: center;
+  color:#fff;
+  font-size:25px;
+}
+
+.AboutMe p {
+  line-height: var(--line-height);
+  padding: 0.4rem;
+  color:#fff;
+  font-size:20px;
+
+}
+
+
+footer{
+  display:flex;
+  justify-content: end, space-around;
+  background: rgb(27,16,71);
+  background: linear-gradient(90deg, rgba(27,16,71,0.6643032212885154) 20%, rgba(22,35,86,0.8883928571428571) 42.5%, hsla(192, 37%, 48%, 0.366) 100%);
+    width:100%;
+    
+    z-index:100;
+    font-family:"Jura";
+    height:100px;
+    bottom:0;
+    left:0;
+    width:100%;
+    color:white;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+a{
+    text-decoration: none;
+    color: #ffff;
+
+}   
+#background-video{
+position: fixed;
+right: 0;
+bottom:0;
+min-width: 100%;
+min-height: 100%;
+height: auto;
+width: auto;
+z-index: -1000;
+background-size: 100%;
+}
+
+.iconContainer{
+display: flex;
+align-items: center;
+}
+
+
+#icons{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  display:flex;
+  }
+
