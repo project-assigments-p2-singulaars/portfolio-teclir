@@ -1,53 +1,76 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
 
     <title>index.html</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+    <section>
+    <video src="img/video1.mp4" autoplay muted loop id="background-video"></video>
+    </section>
+
     <header>
-       
-    
-        <nav>
-            <div>
-                <p>tecla raimondo</p>
-                <p>About me</p>
-                <p>Projects</p>
-                <p>Contact</p>
+    <h1> <p> < tecla raimondo/> </p></h1>
+    <section class="box"></section>
+        <ul>
+        <a href="#AboutMe">About me</a>
+        <a href="#Projects">Projects</a>
+        <a href="pagina.html#nombre">Contact</a>
+        </ul>
+        </section>
+        <section class="iconContainer">
+        <a href="mailto:raimondotecla@gmail.com"> <img src="icons/mail.png" id="icons"></a>
+        <a href="https://www.linkedin.com/in/tecla-raimondo-02a785181/"> <img src="icons/linkedin.png" id="icons"></a>
+        <a href="https://github.com/project-assigments-p2-singulaars/portfolio-teclir"> <img src="icons/github.png" id="icons"></a>
+        </section>
+
+    </header>
+    <section>
+        <div class="Intro">
+        <div class="neon">
+            <p>Turning ideas into digital innovation.</p>
+            <p>Full-Stack Web Developer</p>
+        </div>
+    </section>
+
+    <section class="Projects" id="Projects">
+        <h2 class="Projects">PROJECTS</h2>
+        <div class="ProjectsContainer">
+            <div class="ProjectsContainerCard">
+                <img src="img/blog.jpeg"/>
+                <h3 class="title">Loading...</h3>
             </div>
-            <div>
-                <img>
-                <img>
-                <img>
-                <div>
-                    <p>Turning ideas into digital innovation.</p>
-                    <p>Full Stack Web Developer</p>
+            <div class="ProjectsContainerCard">
+                <img src="img/mobileapp.webp"/>
+                <h3 class="title">Loading...</h3>
+            </div>
+            <div class="ProjectsContainerCard">
+                <img src="img/website.png"/>
+                <h3 class="title">Loading...</h3>
                 </div>
-
-                    <footer class="footer">                       
-                        <p>Tecla Raimondo</p>
-                        <p>Barcelona</p>
-                        <p>Phone Number</p>
-                        <p>Email Address</p>
-
-                    </footer>
-
-    </div>
-
-                    </div>
-                </div>
+                <div class="ProjectsContainerCard">
+                <img src="img/web2.jpeg"/>
+                <h3 class="title">Loading...</h3>
             </div>
 
-        </nav>
-    </div>
+    </section>
+    <section class="AboutMe" id="AboutMe">
+        <h2>ABOUT ME</h2>
+        <p>Hi, I'm Tecla, a dedicated Full-Stack Web Developer passionate about crafting seamless digital experiences.</p> 
+        <p>With expertise in both frontend and backend development, I thrive on turning ideas into dynamic, user-friendly websites and applications. </p>
+        <p>Let's collaborate to bring your vision to life!</p>
+    </section>
 
-</header>
-    
+        <footer class="footer">
+
 </body>
+
 </html>
